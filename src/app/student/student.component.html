@@ -1,0 +1,23 @@
+<h1 class="text-success">This is Student Component!!</h1>
+
+<table class="table table-bordered w-50 mt-4" align="center">
+    <!-- <table class="table table-border w-50 mt-4" align="center">
+        <table class="table table-dark w-50 mt-4" align="center"> -->
+
+    <thead>
+        <tr>
+            <th>Student id</th>
+            <th>Student Name</th>
+            <th>Student City</th>
+            <th>Student's course Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of student1">
+            <td class="bg-warning">{{i.stuid}}</td>
+            <td class="bg-danger">{{i.stuname}}</td>
+            <td class="bg-success">{{i.stucity}}</td>
+            <td class="bg-primary">{{i.course}}</td>
+        </tr>
+    </tbody>
+</table>
